@@ -1,0 +1,70 @@
+2017-12-30T03:13:22.608Z - normal: Load ~/.CocosCreator/settings.json
+2017-12-30T03:13:22.612Z - normal: checking language setting...
+2017-12-30T03:13:22.612Z - normal: Language: zh
+2017-12-30T03:13:23.324Z - success: protocol editor-framework registered
+2017-12-30T03:13:23.325Z - success: protocol app registered
+2017-12-30T03:13:23.325Z - success: protocol theme registered
+2017-12-30T03:13:23.325Z - success: protocol packages registered
+2017-12-30T03:13:23.325Z - success: protocol unpack registerred
+2017-12-30T03:13:23.325Z - success: protocol disable-commonjs registerred
+2017-12-30T03:13:23.612Z - normal: connected!
+2017-12-30T03:13:23.616Z - normal: Check project /Users/poker/Documents/works/pretation/demo
+2017-12-30T03:13:23.618Z - normal: Initializing Cocos2d
+2017-12-30T03:13:23.849Z - normal: Initializing Asset Database
+2017-12-30T03:13:23.880Z - success: protocol uuid registerred
+2017-12-30T03:13:23.881Z - success: protocol db registerred
+2017-12-30T03:13:23.881Z - success: protocol thumbnail registerred
+2017-12-30T03:13:23.881Z - normal: Loading editor/builtin packages
+2017-12-30T03:13:23.905Z - success: anysdk loaded
+2017-12-30T03:13:24.027Z - success: assets loaded
+2017-12-30T03:13:24.031Z - success: builder loaded
+2017-12-30T03:13:24.033Z - success: cocos-analytics loaded
+2017-12-30T03:13:24.038Z - success: console loaded
+2017-12-30T03:13:24.043Z - success: hierarchy loaded
+2017-12-30T03:13:24.049Z - success: inspector loaded
+2017-12-30T03:13:24.051Z - success: keystore loaded
+2017-12-30T03:13:24.055Z - success: node-library loaded
+2017-12-30T03:13:24.057Z - success: package-asset loaded
+2017-12-30T03:13:24.059Z - success: preferences loaded
+2017-12-30T03:13:24.062Z - success: project-exporter loaded
+2017-12-30T03:13:24.080Z - success: project-importer loaded
+2017-12-30T03:13:24.083Z - success: project-settings loaded
+2017-12-30T03:13:24.087Z - success: ui-kit loaded
+2017-12-30T03:13:24.091Z - success: ui-grid loaded
+2017-12-30T03:13:24.096Z - success: scene loaded
+2017-12-30T03:13:24.098Z - success: sprite-editor loaded
+2017-12-30T03:13:24.102Z - success: store loaded
+2017-12-30T03:13:24.108Z - success: timeline loaded
+2017-12-30T03:13:24.108Z - normal: Loading builtin packages
+2017-12-30T03:13:24.111Z - success: asset-db-debugger loaded
+2017-12-30T03:13:24.112Z - success: color-picker loaded
+2017-12-30T03:13:24.116Z - success: package-manager loaded
+2017-12-30T03:13:24.121Z - success: sdkbox loaded
+2017-12-30T03:13:24.125Z - success: tester loaded
+2017-12-30T03:13:24.130Z - success: ui-kit-preview-extra loaded
+2017-12-30T03:13:24.134Z - success: ui-kit-preview loaded
+2017-12-30T03:13:24.138Z - success: ui-tree loaded
+2017-12-30T03:13:25.214Z - normal: Initializing project /Users/poker/Documents/works/pretation/demo
+2017-12-30T03:13:25.216Z - normal: Loading packages
+2017-12-30T03:13:25.220Z - normal: Watching packages
+2017-12-30T03:13:25.231Z - normal: Run Application
+2017-12-30T03:13:25.667Z - success: preview server running at http://localhost:7456
+2017-12-30T03:13:30.308Z - normal: 1.8.0
+2017-12-30T03:31:38.224Z - failed: [db-task][sync-changes] Failed to import asset /Users/poker/Documents/works/pretation/demo/assets/scripts/Game.js, message: Compile error: SyntaxError: /Users/poker/Documents/works/pretation/demo/assets/scripts/Game.js: Unexpected token (50:4)
+  48 |         this.score += 1;
+  49 |         this.scoreDisplay.string = 
+> 50 |     }
+     |     ^
+  51 | 
+  52 |     // update (dt) {},
+  53 | 
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseExprAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3750:12)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3494:19)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3367:23)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
